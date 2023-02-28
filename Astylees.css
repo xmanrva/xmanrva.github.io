@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.8)
+  ), url("https://images.unsplash.com/photo-1489189642444-0709966aec44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: verdana;
+  font-size: 50px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 916px;
+  width: calc(100% - 20px);
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: rgba(200, 200, 200, 0.03);
+  border: 1px solid rgba(74, 0, 0, 1);
+  border-radius: 10px;
+  height: 260px;
+  width: 300px;
+
+}
+
+.card:hover {
+  background-color: rgba(20, 20, 20, 0.03);
+  cursor: all-scroll;
+  transition: all .5s ease-in-out;
+}
+
+.announcement {
+  width: 200px;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
