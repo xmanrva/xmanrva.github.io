@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: verdana;
+  
+}
+
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
