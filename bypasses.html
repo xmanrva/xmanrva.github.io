@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - the pen</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<p id='title'>School Chromebook Bypasses</p>
+
+<div id='toc'></div>	
+<article>
+	<p>Here are a list of bypasses for hapara:</p>
+
+	<h2 id='h-1' slot='h-1'>Hapara</h2>
+	<p>Hapara can be easily bypassed with various methods created by me and others.</p>
+
+	<h3 id='sh-1-1' slot='sh-1-1'>Tab Cloaks</h3>
+	<p>A tab cloak or "Cloaking" is when a tab has its title and picture changed to something other than the real one. This can be used in many ways, for example, if you're on a game site and don't want a teacher to know, cloaking your tab to say "Cource Modules" can trick your teachers in to believing you are doing work.</p><br><p>One thing that could prevent this from working is Hapara screen view. Hapara has a screen viewing option which allows the teacher to see your screen. This means that they will see it is Course Modules but will see something different.<p>
+<br><p>Modules cloak is in the Scripts page for use. Do not use this to cheat on tests. Cheating is bad for you and the people around you. It only will hold you back.<p>
+	
+  <h3 id='sh-1-1' slot='sh-1-1'>Local Files</h3>
+	<p>Local files are files or web pages ran from the computers files. Teachers can not view your screen if you are running a local file. This is because Hapara, the program which allows screen viewing, will have to have access to your files, but Hapara is a Google extension and can not access files.</p>
+  
+	<h2 id='h-2' slot='h-2'>Gaggle</h2>
+	<p>Gaggle is a pogram on our school chromebooks which allow certain key words to be recorded. Some key words include: bullying, self-harm, and other things that could danger people. This program once caught me when I was writing about bullying.</p>
+  <p>There is no known bypass for this. The only way to not trigger it is to not type about it at all.</p>
+
+	<h2 id='h-3' slot='h-3'>Website Cloning</h2>
+	<p>Website cloning is when a website is cloned to be unblocked. This is done a lot, specifically with the website 3kh0.github.io. This is a huge gaming website which has been blocked around 30 times, but more links get made daily, allowing for an infinite supply of game sites.</p>
+  <p>I doubt the school will be smart enough to stop this, as it will take a ton of effort for almost nothing in the end. I made a list of 3kh0 links on a Google document. <a href="https://docs.google.com/document/d/10RpzK9VYP-0t0JEL_HkxdzXbJ3SR5PS5L6eRwBqxvfM/edit?usp=sharing">The Google Document</a></p>
+
+	<h2 id='h-4' slot='h-4'>History</h2>
+	<p>Believe it or not, gaming on school computers in our area has a big story tied to it.</p>
+
+	<h3 id='sh-4-1' slot='sh-4-1'>Cool Math Games</h3>
+	<p>This was the first ever game website discovered. This happened in the late 2010s and 3rd graders began playing it always. Sometimes when students would have to stay inside for recess, this is the only thing they would play.</p>
+
+	<h3 id='sh-4-2' slot='sh-4-2'>The Abyss</h3>
+	<p>A few months pass and the first occurance of manual blocking occurs, CoolMathGames gets blocked. This led schools to be bare of any games. It took months for anything to happen.</p>
+
+	<h3 id='sh-4-3' slot='sh-4-3'>Rise of SKS</h3>
+	<p>SKS games was a google site made by a person in our school district named Chris. He began the gaming revolution and brought hundreds of games to the table. I was able to contact him on a few occasions and I showed him some bypasses. He is the co-owner of one my gaming websites.</p>
+  
+  	<h3 id='sh-4-4' slot='sh-4-3'>3kh0</h3>
+	<p>Life is great, but it gets better when an individual nicknamed 3kh0 joins the party. He has a huge gaming website, which is still used today. His website is cloned and used on thousands of links. He is also a very nice guy. He has a team working on new updates constantly and he provides games to thousands of schools.</p>
+  
+</article>
+<footer id='footer'>
+  <hr>
+	✰ <strong>Github Credit</strong>: <br> <a href='https://github.com/hongkiat/html-slot-toc' target='_blank'>https://github.com/hongkiat/html-slot-toc</a><br>
+</footer>
+<template>
+	<ul>
+		<li>
+			<a href='#h-1'><slot name='h-1'></slot></a>
+			<ul>
+				<li><a href='#sh-1-1'><slot name='sh-1-1'></slot></a></li>
+			</ul>
+		</li>
+		<li><a href='#h-2'><slot name='h-2'></slot></a></li>
+		<li><a href='#h-3'><slot name='h-3'></slot></a></li>
+		<li>
+			<a href='#h-4'><slot name='h-4'></slot></a>
+			<ul>
+				<li><a href='#sh-4-1'><slot name='sh-4-1'></slot></a></li>
+				<li><a href='#sh-4-2'><slot name='sh-4-2'></slot></a></li>
+				<li><a href='#sh-4-3'><slot name='sh-4-3'></slot></a></li>
+			</ul>
+		</li>
+	</ul>
+	<style>
+		ul{
+			list-style: none;
+		}
+		ul:not(li>ul){
+			padding-left: 0;
+		}
+		a:link {
+			color: inherit;
+		}
+	</style>
+</template>
+<script src='script.js'></script>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
