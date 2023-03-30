@@ -1,0 +1,24 @@
+body {
+ background-image: url("https://images.unsplash.com/photo-1504537103742-67c282f65f24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80");
+ background-color: #cccccc;
+ background-size: cover;
+ color: white;
+ padding: 40px;
+}
+  
+/* credit to Muhammad Shublaq for the title text
+ */
+
+h1 {
+  text-align: center;
+ font-family: verdana;
+ font-size: 50px;
+ 
+  
+}
+
+p {
+ text-align: center;
+ font-family: verdana;
+ font-size: 30px;
+}

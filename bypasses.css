@@ -1,0 +1,78 @@
+body {
+  background-image: linear-gradient(to bottom, #210000, #1c0002, #150003, #0c0002, #000000);
+  color: white;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+
+  
+  
+}
+
+#title {
+  font-size:45px;
+  
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+@media (min-width: 610px) {
+        body {
+                width: 600px;
+        }
+}
+@media (max-width: 610px) {
+        body {
+                width: 80%;
+        }
+}
+html {
+        font-family: 'Crimson Text', verdana;
+}
+body {
+        margin: auto;
+}
+
+a:link{
+        color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+
+footer{
+        margin-bottom: 30px;
+}
+article{
+        counter-reset: heading;
+}
+article h2::before{
+        counter-increment: heading;
+        content: '0'counter(heading)': ';
+}
+#toc h2 {
+        text-transform: uppercase;
+        font-size: 11pt;
+        letter-spacing: 2px;
+}
+#toc h3 {
+        font-weight: normal;
+        font-size: inherit;
+}
