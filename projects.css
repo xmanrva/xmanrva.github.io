@@ -1,7 +1,10 @@
 body {
   background-color: black;
   color: white;
-  margin:30px
+  margin:30px;
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  
   
   
 }
@@ -9,13 +12,14 @@ body {
 .button {
   border-radius: 4px;
   background-color: RGB(
- 53, 53, 53) ;
+ 63, 63, 63) ;
   border: none;
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
   padding: 20px;
-  width: 200px;
+  width: 300px;
+  height: 300px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 10px;
@@ -26,6 +30,7 @@ body {
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  
 }
 
 .button span:after {
@@ -35,14 +40,17 @@ body {
   top: 0;
   right: -20px;
   transition: 0.5s;
+  
 }
 
 .button:hover span {
   padding-right: 25px;
+  
 }
 
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
   
-/* this is nav bar stuff */
+  
