@@ -90,7 +90,7 @@ a, a:visited, a:active {
   background-size: 300%;
   background-position: 0% 0%;
   position: absolute;
-  filter: sepia(50%) hue-rotate(10deg);
+  filter: sepia(50%) hue-rotate(60deg);
   
 }
 
