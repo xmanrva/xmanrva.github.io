@@ -8,12 +8,17 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<head>
-  <title>Javascript Scripts</title>
-</head>
+<ul>
+  <li><a href="https://xmanrva.github.io/">Home</a></li>
+  <li><a href="https://xmanrva.github.io/projects">Projects</a></li>
+  <li><a href="https://xmanrva.github.io/about">About</a></li>
+  <li><a href="https://github.com/xmanrva/xmanrva.github.io">Source Code</a></li>
+</ul>
+
+<!-- normal stuff -->
 
 <div class="Title">
-  <h2>Scripts</h2>
+  <h2 style="font-size: 45px;">Bookmark Scripts</h2>
   <p>Released for the public...<p>
   <p style="font-size:20px"> Tutorial: Drag the javascript code in to the bookmark bar<p>
   <hr>
@@ -22,42 +27,48 @@
 <div class="scripts">
       <p style="font-size:30px">Cloaking: this is when a tab can be disguised as another.<p>
   <p style="font-size:20px"> Modules Cloak (PLEASE DO NOT USE TO CHEAT):<p>
-  <p style="color:rgb(255, 0, 102);font-size:15px"> javascript:(function() {    var l = document.querySelector("link[rel*='icon']") || document.createElement('link');    l.type = 'image/x-icon';    l.rel = 'shortcut icon';    l.href = 'https://canvas.wfu.edu/app/uploads/sites/12/2019/09/canvas-logo-1024x1020.png';    document.getElementsByTagName('head')[0].appendChild(l);    document.title = 'Modules';})();<p>
+  <p style="color:red;font-size:15px"> javascript:(function() {    var l = document.querySelector("link[rel*='icon']") || document.createElement('link');    l.type = 'image/x-icon';    l.rel = 'shortcut icon';    l.href = 'https://canvas.wfu.edu/app/uploads/sites/12/2019/09/canvas-logo-1024x1020.png';    document.getElementsByTagName('head')[0].appendChild(l);    document.title = 'Modules';})();<p>
 </div>
 
 <div class="scripts">
       <p style="font-size:30px">Eruda: Inspect element unblocked<p>
   <p style="font-size:20px"> Script:<p>
-  <p style="color:rgb(255, 0, 102);font-size:15px"> javascript:(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();<p>
+  <p style="color:red;font-size:15px"> javascript:(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();<p>
 </div>
   
 <div class="scripts">
       <p style="font-size:30px">Autoclicker: automatically clicks on where you do.<p>
   <p style="font-size:20px"> Script:<p>
-  <p style="color:rgb(255, 0, 102);font-size:15px"> javascript:var DELAY = 1;var autoClickerStyleElement = document.createElement("style");autoClickerStyleElement.innerHTML="*{cursor: crosshair !important;}";document.body.appendChild(autoClickerStyleElement);function addClicker(e) {if(!e.isTrusted) {return;}if(e.target.classList.contains("auto-clicker-target")) {e.target.classList.remove("auto-clicker-target");} else {e.target.classList.add("auto-clicker-target");}document.body.removeChild(autoClickerStyleElement);document.body.removeEventListener("click", addClicker);e.preventDefault();autoClick(e.target);}function autoClick(element) {if(element.classList.contains("auto-clicker-target")) {element.click();setTimeout(function(){ autoClick(element); }, DELAY);}}document.body.addEventListener("click", addClicker, 0);<p>
+  <p style="color:red;font-size:15px"> javascript:var DELAY = 1;var autoClickerStyleElement = document.createElement("style");autoClickerStyleElement.innerHTML="*{cursor: crosshair !important;}";document.body.appendChild(autoClickerStyleElement);function addClicker(e) {if(!e.isTrusted) {return;}if(e.target.classList.contains("auto-clicker-target")) {e.target.classList.remove("auto-clicker-target");} else {e.target.classList.add("auto-clicker-target");}document.body.removeChild(autoClickerStyleElement);document.body.removeEventListener("click", addClicker);e.preventDefault();autoClick(e.target);}function autoClick(element) {if(element.classList.contains("auto-clicker-target")) {element.click();setTimeout(function(){ autoClick(element); }, DELAY);}}document.body.addEventListener("click", addClicker, 0);<p>
 </div>
 
 <div class="scripts">
       <p style="font-size:30px">3D: Turns your page 3D<p>
   <p style="font-size:20px"> Script:<p>
-  <p style="color:rgb(255, 0, 102);font-size:15px"> javascript:(function(){var js=document.body.appendChild(document.createElement("script"));js.onerror=function(){alert("Sorry, the script could not be loaded.")};js.src="https://rawgit.com/Krazete/bookmarklets/master/tri.js"})();<p>
+  <p style="color:red;font-size:15px"> javascript:(function(){var js=document.body.appendChild(document.createElement("script"));js.onerror=function(){alert("Sorry, the script could not be loaded.")};js.src="https://rawgit.com/Krazete/bookmarklets/master/tri.js"})();<p>
 </div>
 
 <div class="scripts">
       <p style="font-size:30px">Wikipedia: search wikipedia with ease<p>
   <p style="font-size:20px"> Script:<p>
-  <p style="color:rgb(255, 0, 102);font-size:15px"> javascript:(function() {function se(d) {    return d.selection ? d.selection.createRange().text : d.getSelection()} s = se(document); for (i=0; i&lt;frames.length && (s==null || s==%27%27); i++) s = se(frames[i].document); if (!s || s==%27%27) s = prompt(%27Enter search terms for Wikipedia%27,%27%27); open(%27https://en.wikipedia.org%27 + (s ? %27/w/index.php?title=Special:Search&search=%27 + encodeURIComponent(s) : %27%27)).focus();})();<p>
+  <p style="color:red;font-size:15px"> javascript:(function() {function se(d) {    return d.selection ? d.selection.createRange().text : d.getSelection()} s = se(document); for (i=0; i&lt;frames.length && (s==null || s==%27%27); i++) s = se(frames[i].document); if (!s || s==%27%27) s = prompt(%27Enter search terms for Wikipedia%27,%27%27); open(%27https://en.wikipedia.org%27 + (s ? %27/w/index.php?title=Special:Search&search=%27 + encodeURIComponent(s) : %27%27)).focus();})();<p>
 </div>
 
 <div class="scripts">
       <p style="font-size:30px">Edit: edit any text on any page (except new tab)<p>
   <p style="font-size:20px"> Script:<p>
-  <p style="color:rgb(255, 0, 102);font-size:15px"> javascript:document.body.contentEditable = 'true'; document.designMode='on'; void 0
+  <p style="color:red;font-size:15px"> javascript:document.body.contentEditable = 'true'; document.designMode='on'; void 0
     
 <br><br>Turn off edit:<br><br>
     
  javascript:document.body.contentEditable = 'false'; document.designMode='off'; void 0
  <p>
+</div>
+
+<div class="scripts">
+      <p style="font-size:30px">Piano<p>
+  <p style="font-size:20px"> A literal piano. That's it. + There is too much text go to the link<p>
+  <p style="color:red;font-size:15px"> https://docs.google.com/document/d/1ZXOdNygVS56X-GSf9qNftYDIZQkyj_mAhRZjI7bxOXU/edit?usp=sharing<p>
 </div>
 <!-- partial -->
   
